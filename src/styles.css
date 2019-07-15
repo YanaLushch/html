@@ -1,4 +1,77 @@
-.custom-class {
-    color: red;
-    font-size: 24px;
+/* CSS - Cascading Style Sheets */
+/* 
+ Three ways to find html tag
+
+    1. By identificator - #ID, only one
+    2. By class name - .className
+    3. By tags - div, span, p
+
+
+    Cascading - div p - will have influence only for p tags where div is parent
+ */
+
+ #header {
+     background-color: #ff1493;
+     width: 100%; /* this is by default */
+     height: 200px;
+     text-align: center;
+     line-height: 200px;
+     vertical-align: middle;
+     margin-bottom: 50px;
+ }
+
+ #header span {
+    display: inline;
+ }
+
+ #footer {
+    background-color: #ff1493;
+    width: 100%; /* this is by default */
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    vertical-align: middle;
+    margin: 50px 0 0 0;
 }
+
+ #footer span {
+    display: inline;
+ }
+
+ .container {
+     margin: 0 auto;
+     width: 1020px;
+ }
+
+ h1 {
+     letter-spacing: 3px;
+     font-style: italic;
+ }
+
+ h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+ }
+
+ p {
+     font-size: 16px;
+     color: rgb(78, 30, 40);
+ }
+
+ ul {
+    font-size: 16px;
+    color: rgb(78, 30, 40);
+ }
+
+ figcaption {
+     color: teal;
+ }
+
+ a {
+     color: red;
+ }
+
+ div:last-child p {
+     color: blue;
+ }
